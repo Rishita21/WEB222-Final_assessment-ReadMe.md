@@ -44,7 +44,7 @@ function validation() {
     }
 
     //specifications for creating the password..........
-    else if (!passw.test(password) || !isUppercase.test(password)) {
+    else if (!p.test(password) || !isUppercase.test(password)) {
          alert('Error! Passwords must start with an Alphabet, and must contain at least 1 digit, and 1 uppercase characters.\n Try Again..');
         return false;
     }
